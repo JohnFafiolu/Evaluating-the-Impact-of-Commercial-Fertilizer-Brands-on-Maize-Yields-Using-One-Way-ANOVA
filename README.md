@@ -55,4 +55,4 @@ Following the rejection of the null hypothesis, multiple multiple-comparison pro
 Based on the Tukey HSD and Holm corrections, Fertilizer Brand D produced a statistically significant higher yield than Brands A and C. For agricultural stakeholders aiming to maximize tonnage per hectare, Brand D is the recommended treatment.
 
 ---
-*For the complete R syntax, view the `/scripts` folder.*
+*For the complete R syntax, view the `/script` folder.*
