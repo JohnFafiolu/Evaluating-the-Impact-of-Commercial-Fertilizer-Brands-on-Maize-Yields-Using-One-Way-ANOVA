@@ -5,10 +5,6 @@ maize_yield = c(4.2,3.5,4.6,3.8,3.7,4.0,3.7,3.7,3.2,5.1,7.2,5.8,4.6,6.5,3.7,4.5)
 dataset = data.frame(fertilizer,maize_yield)
 print(dataset)
 
-#performing the anova test
-anova_test = aov(maize_yield~fertilizer, data = dataset)
-summary(anova_test)
-
 # 1. Kolmogorov-Smirnov technique
 # Extracting the residuals from ANOVA model
 residuals = residuals(anova_test)
@@ -110,6 +106,10 @@ plot(fitted_maize_yields, residuals,
      ylab = "Residuals",
      pch = 19, col = "blue")
 abline(h = 0, col = "red", lwd = 2) 
+
+#performing the anova test
+anova_test = aov(maize_yield~fertilizer, data = dataset)
+summary(anova_test)
 
 #Tukey Honestly Significant Difference Test
 tukey_test = TukeyHSD(anova_test)
