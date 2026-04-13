@@ -56,3 +56,5 @@ Based on the Tukey HSD and Holm corrections, Fertilizer Brand D produced a stati
 
 ---
 *For the complete R syntax, view the `/script` folder.*
+### Visuals
+![Histogram of Standardized Residuals](visuals/histogram_residuals.png)
