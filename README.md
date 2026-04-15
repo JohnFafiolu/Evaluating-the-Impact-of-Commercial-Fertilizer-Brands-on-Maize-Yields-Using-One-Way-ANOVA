@@ -55,7 +55,7 @@ Following the rejection of the null hypothesis, multiple multiple-comparison pro
 Based on the Tukey HSD and LSD Tests, Fertilizer Brand D produced a statistically significant higher yield than Brands A, B, C, D and E. For agricultural stakeholders aiming to maximize tonnage per hectare, Brand D is the recommended fertilizer.
 
 ---
-*For the complete R syntax, view the `/script` folder.*
+*For the complete R syntax, view the `/script` folder. For the Technical Report, download the `Technical Report` PDF*
 ### Visuals
 ![Histogram of Standardized Residuals](visuals/histogram_residuals.png)
 ![QQ Plot](visuals/QQPlot.png)
