@@ -52,7 +52,7 @@ Following the rejection of the null hypothesis, multiple multiple-comparison pro
 2.  Least Significant Difference (LSD)
 
 ### 💡 Conclusion & Business Impact
-Based on the Tukey HSD and Holm corrections, Fertilizer Brand D produced a statistically significant higher yield than Brands A and C. For agricultural stakeholders aiming to maximize tonnage per hectare, Brand D is the recommended treatment.
+Based on the Tukey HSD and LSD Tests, Fertilizer Brand D produced a statistically significant higher yield than Brands A, B, C, D and E. For agricultural stakeholders aiming to maximize tonnage per hectare, Brand D is the recommended fertilizer.
 
 ---
 *For the complete R syntax, view the `/script` folder.*
